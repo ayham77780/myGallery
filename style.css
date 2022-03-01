@@ -1,0 +1,72 @@
+
+
+
+
+footer {
+color: white;
+}
+
+
+
+
+.space {min-height: 60px;}
+ 
+
+.carousel-indicators {
+
+	filter: invert(100%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.img-fluid{
+	
+	 width: 50%;
+   margin: auto;
+  
+}
+
+@media (max-width: 768px) 
+{
+
+.img-fluid{
+	
+	 width: 100%;
+   margin: auto;
+  
+}
+
+	}
+
+
+	@media (min-width: 769px) { 
+
+
+.img-fluid{
+	
+	 width: 50%;
+   margin: auto;
+  
+}
+	 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+.img-fluid{
+	
+	 width: 50%;
+   margin: auto;
+  
+} }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+.img-fluid{
+	
+	 width: 50%;
+   margin: auto;
+  
+} }
