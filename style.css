@@ -1,5 +1,5 @@
 
-
+* {scroll-behavior: smooth;}
 
 
 footer {
@@ -14,7 +14,7 @@ color: white;
 
 .carousel-indicators {
 
-	filter: invert(100%);
+	filter: invert(70%);
 }
 
 .carousel-control-next,
@@ -41,17 +41,6 @@ color: white;
 
 	}
 
-
-	@media (min-width: 769px) { 
-
-
-.img-fluid{
-	
-	 width: 50%;
-   margin: auto;
-  
-}
-	 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
